@@ -5,7 +5,7 @@ pipeline {
 
         stage('Clone') {
             steps {
-                git 'https://github.com/shriyadeo01/Employee-Management-System.git'
+                git branch: 'main', url: 'https://github.com/shriyadeo01/Employee-Management-System.git'
             }
         }
 
